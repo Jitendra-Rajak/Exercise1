@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 {
     /* ---------- INITIALIZING VARIABLES ---------- */
     int sockfd;/*!< File descriptor to store the values returned by the socket system call and the accept system call. */
-    int  portno,/*!< NOTE that the port number is same for both client and server. */
+    int  portno;/*!< NOTE that the port number is same for both client and server. */
     int  n;
     struct sockaddr_in serv_addr;
     struct hostent *server;
